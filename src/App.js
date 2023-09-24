@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Card from "./Cards";
+import './styles.css';
+import Sdata from './Sdata';
+import Netflix from "./Netflix";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const FavS = "Netflix"
+
+
+const Fav = () => {
+
+if(FavS === "Netflix"){
+    return <Netflix />
+}else{
+    return(
+        <Card 
+        key= {Sdata[1].id}
+        imgsrc={Sdata[1].imgsrc}
+        title={Sdata[1].title}
+        sname={Sdata[1].sname}
+        link={Sdata[1].link}
+        />
+      )
 }
+
+}
+
+const App = () => (
+    <>
+
+    <h1 className="heading_style">Top 5 Netflix Series </h1>
+    <Fav /> 
+    </>
+);
 
 export default App;
