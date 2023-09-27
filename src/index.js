@@ -1,12 +1,13 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-import MediaCard from "./Card";
+import Accordian from "./Accordian";
+
 
 
 ReactDOM.render(
-
+ 
   <>
-   <MediaCard />
+  <Accordian />
   </>,document.getElementById('root')
  
 
