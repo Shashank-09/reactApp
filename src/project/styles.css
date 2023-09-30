@@ -1,0 +1,138 @@
+/* Style the header container */
+.header {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set text color */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style the logo image */
+  .header img {
+    margin-right: 10px; /* Add some spacing between the logo and text */
+  }
+  
+  /* Style the header text */
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Style the header text on hover if needed */
+  .header h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+/* Style the footer container */
+/* Style the footer container */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ /* Set your desired background color */
+    color: #151414; /* Set text color */
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Style the footer text */
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+
+  /* Style the main container */
+.main_note {
+    max-width: 600px; /* Set your desired maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Set your desired background color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+  }
+  
+  /* Style the form element */
+  .main_note form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the input field for the title */
+  .main_note input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the textarea for the note content */
+  .main_note textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    min-height: 100px; /* Set your desired minimum height */
+  }
+  
+  /* Style the button */
+  .main_note button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Set your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the button on hover */
+  .main_note button:hover {
+    background-color: #0056b3; /* Set your desired hover color */
+  }
+  
+
+  /* Style the small card container */
+.note {
+  float: left;
+  background-color: #ffffff; /* Set your desired background color */
+  border: 1px solid #e0e0e0; /* Set your desired border color */
+  border-radius: 8px;
+  padding: 10px; /* Reduce the padding */
+  margin: 10px; /* Reduce the margin */
+  width: 200px; /* Set a fixed width for the small card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Smaller box shadow */
+}
+
+/* Style the small card title */
+.note h1 {
+  font-size: 20px; /* Reduce the title font size */
+  margin: 0;
+  color: #333; /* Set your desired title color */
+}
+
+/* Style the small card content */
+.note p {
+  font-size: 16px; /* Reduce the content font size */
+  margin: 8px 0; /* Reduce the content margin */
+  color: #666; /* Set your desired content color */
+}
+
+/* Style the delete icon */
+.deleteIcon {
+  color: #ff0000; /* Set your desired delete icon color */
+  cursor: pointer;
+  margin-top: 8px; /* Reduce the icon margin */
+}
+
+/* Style the delete icon on hover */
+.deleteIcon:hover {
+  color: #cc0000; /* Set your desired hover color */
+}

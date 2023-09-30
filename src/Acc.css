@@ -1,0 +1,87 @@
+/* Styles for the accordion container */
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .main-heading p {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+
+  
+  /* Styles for the expand/collapse icon */
+  .main-heading p::before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Rotate the icon when the content is expanded */
+  .main-heading.active p::before {
+    transform: rotate(-90deg);
+  }
+  
+  /* Style the section containing the accordion */
+  section {
+    margin: 223px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the heading of the section */
+  section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+/* Style the hover effect for the accordion heading */
+.main-heading:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style the active (open) accordion content */
+  .main-heading.active + .answer {
+    display: block;
+  }
+  
+  /* Add transition for smoother accordion animation */
+  
+  
+  /* Style the text within the accordion content */
+  
+  /* Style the border and spacing for each accordion item */
+  .AccData {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Style the heading text within the accordion */
+  .AccData h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style the heading text on hover */
+  .AccData h3:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style the section container (if needed) */
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba
+  }

@@ -1,13 +1,13 @@
 import React from "react";
 import  ReactDOM  from "react-dom";
-import Accordian from "./Accordian";
+import App from "./project2/App";
 
 
 
 ReactDOM.render(
- 
+
   <>
-  <Accordian />
+  <App />
   </>,document.getElementById('root')
  
 
