@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+code{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: aqua;
+}
+a.active_class{
+    color: rgb(43, 211, 40);
+    border-bottom: 1px solid red;
+}
+.menu_style{
+    width: 100%;
+    line-height: 60px;
+    background-color: #20233a;
+    display: flex;
+    justify-content: space-between;
+}
