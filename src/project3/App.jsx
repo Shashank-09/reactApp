@@ -5,16 +5,20 @@ import Navbar from './Navbar';
 import {   Route,  Routes} from 'react-router-dom';
 import Service from './Service';
 import User from './User';
+import Search from './Search';
+import Error from './Error';
 
 const App = () => {
   return (
     <>
     <Navbar />
     <Routes>
-        <Route path='/' element={<About />}></Route>
-        <Route path='/contact' element={<Contact />}></Route>
-        <Route path='/service' element={<Service />}></Route>
-        <Route path='/user/:fname' element={<User />}></Route>
+        <Route exact path='/' element={<About />}></Route>
+        <Route exact path='/contact' element={<Contact />}></Route>
+        <Route exact path='/search' element={<Search />}></Route>
+        <Route exact path='/service' element={<Service />}></Route>
+        <Route exact path='/user/:fname/:lname' element={<User />}></Route>
+        <Route path='*' element={<Error />}></Route>
     </Routes>
 
 

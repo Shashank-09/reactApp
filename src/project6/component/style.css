@@ -1,0 +1,125 @@
+.main-div {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .child-div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  figcaption {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .addItems {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .showItems {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .eachItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .eachItem h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .eachItem .add-btn {
+    color: #FF5733;
+    cursor: pointer;
+  }
+  
+  .btn.effect04 span {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 20px;
+  }
+  
+  .btn.effect04 span::before {
+    content: attr(data-sm-link-text);
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .btn.effect04:hover {
+    background: #FF5733;
+    -webkit-mask-image: radial-gradient(white 100%, black 100%);
+  }
+/* Center the main content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Add a background color to the body if desired */
+  }
+  
+  /* Styles for the to-do list */
+  .main-div {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .child-div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  /* Rest of your styles */
+    

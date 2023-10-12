@@ -1,15 +1,10 @@
-import React from "react";
-import  ReactDOM  from "react-dom";
-import App from "./project3/App";
-import { BrowserRouter } from "react-router-dom";
-import "./project3/index.css"
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import TodoList from './project6/component/TodoList';
 
-
-ReactDOM.render(
-  <>
-  <BrowserRouter>
-     <App />
-  </BrowserRouter>
-  </>,document.getElementById('root')
-
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <StrictMode>
+    <TodoList />
+  </StrictMode>
 );

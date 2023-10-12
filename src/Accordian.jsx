@@ -9,10 +9,13 @@ const Accordian = () => {
   return(
     <> 
     <section>
-        <h1>React Interview Question</h1>
+      <h1>React Interview Question</h1>
     {data.map((currElem) => {
     const { id  } = currElem;
-       return <AccData  key={id} {...currElem} />
+       return <AccData  
+       key={id} 
+       {...currElem} 
+      />
     })}
     </section> 
     </>
